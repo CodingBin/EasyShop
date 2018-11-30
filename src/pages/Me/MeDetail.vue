@@ -77,8 +77,8 @@
 
         // 2. 日期
         pickerVisible: false,
-        startDate: new Date('1960-01-01'),
-        endDate: new Date('1970-01-01')
+        startDate: new Date('1900-01-01'),
+        endDate: new Date('2035-01-01')
       }
     },
     computed:{

@@ -88,7 +88,7 @@
       ...mapState(['userInfo', 'cartGoods']),
     },
     mounted() {
-      console.log("mouted");
+      console.log("chatvuemouted");
       // 请求商品数据
       this.$store.dispatch('reqCartsGoods');
     },

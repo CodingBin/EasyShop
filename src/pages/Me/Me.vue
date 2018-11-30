@@ -17,6 +17,9 @@
         computed:{
           ...mapState(['userInfo']),
         },
+        mounted(){
+          this.$store.dispatch('getUserInfo');
+        },
         components:{
           MeTop,
           SelectLogin
