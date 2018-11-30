@@ -208,7 +208,7 @@
           top 9px
           left 0
     .jd_shopCart_list
-      margin-bottom 64px
+      margin-bottom 106px
       background-color #e0e0e0
       section
         margin-top 15px
