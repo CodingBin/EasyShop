@@ -59,9 +59,10 @@
                   <img @click.prevent="dealPwdMode(true)" :class="{on:!pwdMode}" src="./images/show_pwd.png" alt="" width="20">
                 </div>
               </section>
-              <section class="login_message">
+              <section class="login-verification">
                 <input type="text" maxlength="11" placeholder="验证码" v-model="captcha">
                 <img
+                  style="position: absolute;right: 0;top:0;"
                   ref="captcha"
                   class="get_verification"
                   src="http://localhost:3000/api/captcha"
@@ -256,7 +257,7 @@
             .login-message
               position relative
               margin-top 16px
-              height 48px
+              height 50px
               font-size 14px
               background #fff
               .get-verification

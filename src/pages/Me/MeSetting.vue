@@ -28,7 +28,7 @@
     export default {
         name: "MeSetting",
         components:{
-          MeCommonCell
+          MeCommonCell,
         },
         methods:{
           ...mapActions(["logOut"]),
